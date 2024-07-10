@@ -1,0 +1,15 @@
+{
+    "events": [
+      { "id": 1, "event": "Eligible list", "type": "input", "status": "", "parent_id": [],"date":"01/01/2024","dueDate":"01/01/2024","stepOwner":"HR" },
+      { "id": 2, "event": "Appraisal form sent", "status": "", "parent_id": [1] ,"date":"02/01/2024","dueDate":"03/01/2024","stepOwner":"HR"},
+      { "id": 3, "event": "Data/Score collection","status": "", "parent_id": [2] ,"date":"05/01/2024","dueDate":"09/01/2024","stepOwner":"HR"},
+      { "id": 4, "event": "Appraisal form submission","status": "", "parent_id": [2] ,"date":"","dueDate":"","stepOwner":"Team members"},
+      { "id": 5, "event": "1-1 meeting by leads","status": "", "parent_id": [4] ,"date":"09/01/2024","dueDate":"10/01/2024","stepOwner":"Leads"},
+      { "id": 6, "event": "Appraisal form submission-L2","status": "", "parent_id": [5] ,"date":"","dueDate":"20/01/2024","stepOwner":"Leads"},
+      { "id": 7, "event": "1-1 meeting by delivery lead","status": "", "parent_id": [6] ,"date":"10/01/2024","dueDate":"20/01/2024","stepOwner":"Delivery lead"},
+      { "id": 8, "event": "Score calculation and reporting","status": "", "parent_id": [3,7] ,"date":"11/01/2024","dueDate":"12/01/2024","stepOwner":"HR"},
+      { "id": 9, "event": "Sending score cards","status": "", "parent_id": [8] ,"date":"13/01/2024","dueDate":"14/01/2024","stepOwner":"HR"},
+      { "id": 10, "event": "Releasing hike letters","status": "", "parent_id": [9] ,"date":"16/01/2024","dueDate":"17/01/2024","stepOwner":"Finance"}
+    ]
+  }
+  

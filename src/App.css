@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.MuiContainer-root {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h4 {
+  color: #764abc;
+  font-family: monospace;
+}
+
+.MuiTypography-root {
+  margin-bottom: 50px;
+}
+
+
+.css-10mg1vw-MuiStepper-root {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+
+.css-1vyamtt-MuiStepLabel-labelContainer.MuiStepLabel-alternativeLabel {
+  margin-bottom: 10px;
+
+}
+
+.css-n7tliy-MuiStep-root {
+  margin-top: 20px;
+}
+
+.node-details {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.node-details h2 {
+  margin-top: 0;
+}
+
+/* .hover-details {
+  position: absolute;
+  background: white;
+  border: 1px solid;
+} */
+/* App.css */
+.greenBackdrop {
+  background-color: rgba(0, 128, 0, 0.5);
+}
